@@ -1,0 +1,18 @@
+
+<br><br>
+<p>Palindromo-angular</p>
+<div class="row">
+	<div class="col">
+		<div ngbDropdown class="d-inline-block">
+			<button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
+				clique aqui! E descubra se é palindro
+			</button>
+			<div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+				<input placeholder="Digite aqui:" class="form-control"[(ngModel)]= "text" >
+{{isPalindromo()}}
+
+			</div>
+		</div>
+	</div>
+
+
